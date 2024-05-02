@@ -1,2 +1,10 @@
-package Task1;public class WrongLoginException {
+package Task1;
+
+public class WrongLoginException extends Exception{
+    public WrongLoginException() {
+    }
+
+    public WrongLoginException(String message) {
+        super(message);
+    }
 }
