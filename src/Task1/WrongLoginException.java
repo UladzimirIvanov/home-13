@@ -1,7 +1,8 @@
 package Task1;
 
-public class WrongLoginException extends Exception{
+public class WrongLoginException extends Exception {
     private String login;
+
     public WrongLoginException() {
     }
 
@@ -11,6 +12,6 @@ public class WrongLoginException extends Exception{
 
     @Override
     public String toString() {
-        return "Login " + login + " содержит пробелы или имеет более 20 символов";
+        return "Логин " + login + " содержит пробелы или имеет более 20 символов";
     }
 }
